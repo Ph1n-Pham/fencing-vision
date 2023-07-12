@@ -1,0 +1,43 @@
+# YOLOv8 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+opencv-contrib-python-headless
+ultralytics
+streamlit
+streamlit_webrtc
+numpy==1.23.0
+tensorflow
+streamlit
+
+Pillow==9.5.0
+pafy
+youtube-dl
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1  # Google Colab version
+torch>=1.7.0
+torchvision>=0.8.1
+# tqdm>=4.41.0
+# protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
+# # Logging -------------------------------------
+# tensorboard>=2.4.1
+# # wandb
+
+# # Plotting ------------------------------------
+# pandas>=1.1.4
+# seaborn>=0.11.0
+
+
+# # Extras --------------------------------------
+# ipython  # interactive notebook
+# psutil  # system utilization
+# thop  # FLOPs computation
+# streamlit
+# wget
+# ffmpeg-python
+# video_predict
