@@ -24,7 +24,7 @@ YOUTUBE = 'YouTube'
 SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, RTSP, YOUTUBE]
 
 # Images config
-IMAGES_DIR = ROOT / 'dataset/inference/images'
+IMAGES_DIR = ROOT / 'dataset/inference/image'
 DEFAULT_IMAGE = IMAGES_DIR / 'office_4.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
 IMAGE_1_PATH = IMAGES_DIR / 'AbandonedAbandonedFurseal_mp4-1_jpg.rf.b58e5acde13cfc780a015d6bc0a6386d.jpg'
@@ -45,7 +45,7 @@ IMAGES_DICT = {
 
 
 # Videos config
-VIDEO_DIR = ROOT / 'dataset/inference/videos'
+VIDEO_DIR = ROOT / 'dataset/inference/video'
 VIDEO_1_PATH = VIDEO_DIR / 'AbandonedCandidAfricanporcupine.mp4'
 VIDEO_2_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
 VIDEO_3_PATH = VIDEO_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
