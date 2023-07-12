@@ -1,5 +1,5 @@
-# 🤺📸 Fencing Video Review with Instance Segmentation model
-Instance segmentation on Fencing videos
+# 🤺📸 Fencing Vision 
+### Video Review App with Instance Segmentation model
 
 ## Overview
 This is a template for building good machine learning projects.
