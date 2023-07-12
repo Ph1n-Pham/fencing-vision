@@ -1,4 +1,4 @@
-# Fencing Video Review with Instance Segmentation model
+# 🤺📸 Fencing Video Review with Instance Segmentation model
 Instance segmentation on Fencing videos
 
 ## Overview
