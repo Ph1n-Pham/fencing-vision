@@ -1,16 +1,16 @@
 # [In Progress] 🤺📸 FencingVision 
-### Video Review App with Instance Segmentation model
 
 # FencingVision: Analyzing Fencing Videos with Computer Vision
 
 <!---![FencingVision Logo](https://yourdomain.com/images/logo.png)
 --->
-Welcome to FencingVision, an innovative application that utilizes the power of computer vision to analyze fencing videos like never before! This README file serves as your comprehensive guide to understanding, setting up, and utilizing this exciting project.
+Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative application that utilizes the power of computer vision to analyze fencing videos like never before! This README file serves as your comprehensive guide to understanding, setting up, and utilizing this exciting project.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
+  - [App link](#app-links)
   - [Installation](#installation)
   - [Usage](#usage)
 - [How It Works](#how-it-works)
@@ -26,6 +26,10 @@ FencingVision is an app designed to revolutionize the analysis of fencing videos
 
 ## Features
 
+- **Instance Annotation and Tagging**: Annotate videos with labels, tags, and notes to enable easy organization, search, and retrieval of specific fencing sequences or training sessions.
+
+- More to come!
+<!---
 - **Fencing Action Recognition**: Automatically detect and classify different fencing actions, such as attacks, parries, ripostes, and more, within a video sequence.
 
 - **Fencer Performance Evaluation**: Analyze fencer technique, timing, and footwork to provide detailed performance metrics, such as accuracy, speed, reaction time, and balance.
@@ -37,8 +41,12 @@ FencingVision is an app designed to revolutionize the analysis of fencing videos
 - **Annotation and Tagging**: Annotate videos with labels, tags, and notes to enable easy organization, search, and retrieval of specific fencing sequences or training sessions.
 
 - **Real-time Analysis**: Perform live analysis of fencing bouts by connecting a video feed directly to FencingVision, allowing instant feedback and evaluation.
-
+--->
 ## Getting Started
+
+### App links
+
+Current app version can be accessed with this [link](https://fencing-vision.streamlit.app/).
 
 ### Installation
 
@@ -53,9 +61,9 @@ git clone https://github.com/Ph1n-Pham/fencing-vision.git
 ```
 pip install -r requirements.txt
 ```
-
+<!---
 3. Download the pre-trained models and weights necessary for running FencingVision. You can find the download link in the `weights/best.pt` file.
-
+--->
 ### Usage
 
 Once you have completed the installation process, you can start using FencingVision. Follow these steps:
