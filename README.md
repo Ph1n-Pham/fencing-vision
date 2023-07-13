@@ -46,7 +46,7 @@ To set up FencingVision on your local machine, follow these steps:
 
 1. Clone the FencingVision repository from GitHub:
 ```
-git clone https://github.com/yourusername/fencing-vision.git
+git clone https://github.com/Ph1n-Pham/fencing-vision.git
 ```
 
 2. Install the required dependencies using pip:
