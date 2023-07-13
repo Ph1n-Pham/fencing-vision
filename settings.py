@@ -46,8 +46,8 @@ IMAGES_DICT = {
 
 # Videos config
 VIDEO_DIR = ROOT / 'data/inference/video'
-VIDEO_1_PATH = VIDEO_DIR / 'AbandonedCandidAfricanporcupine.mp4'
-VIDEO_2_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
+VIDEO_1_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
+VIDEO_2_PATH = VIDEO_DIR / 'AbandonedCandidAfricanporcupine.mp4'
 VIDEO_3_PATH = VIDEO_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
 #VIDEO_4_PATH = VIDEO_DIR / 'video_4.mp4'
 #VIDEO_5_PATH = VIDEO_DIR / 'video_5.mp4'
