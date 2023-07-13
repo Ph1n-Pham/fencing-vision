@@ -16,10 +16,12 @@ Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative
 - [How It Works](#how-it-works)
 - [Technology Stack](#technology-stack)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+<!---
+- [License](#license)
 
+- [Acknowledgements](#acknowledgements)
+--->
 ## Introduction
 
 FencingVision is an app designed to revolutionize the analysis of fencing videos using the cutting-edge capabilities of computer vision. It provides fencers, coaches, and enthusiasts with an advanced toolset to extract valuable insights from recorded fencing bouts. By harnessing the power of artificial intelligence, FencingVision aims to enhance training, improve performance, and elevate the overall understanding of the sport.
@@ -87,6 +89,10 @@ FencingVision employs a combination of computer vision techniques, machine learn
 
 2. **Video Preprocessing**: The video is preprocessed to enhance quality, stabilize the frames, and reduce noise, ensuring optimal analysis conditions.
 
+8. **Real-time Segmentation**: Using YOLOv8 (state-of-the-art computer vision model), FencingVision recognizes and classifies different body parts of fencers, allowing for video review and technique lessons.
+
+<!---![FencingVision Logo](https://yourdomain.com/images/logo.png)
+
 3. **Action Recognition**: Using state-of-the-art computer vision algorithms, FencingVision recognizes and classifies various fencing actions, identifying attacks, parries, ripostes, and other essential elements of the bout.
 
 4. **Performance Evaluation**: Based on the detected actions, FencingVision evaluates the fencer's technique, timing, and footwork, generating insightful performance metrics.
@@ -98,6 +104,7 @@ FencingVision employs a combination of computer vision techniques, machine learn
 7. **Annotation and Tagging**: FencingVision allows users to annotate videos with labels, tags, and notes, enabling easy organization and retrieval of specific sequences or training sessions.
 
 8. **Real-time Analysis**: By connecting a video feed directly to FencingVision, users can perform live analysis of fencing bouts, receiving instant feedback and evaluation.
+--->
 
 ## Technology Stack
 
@@ -105,9 +112,9 @@ FencingVision is built using the following technologies:
 
 - Python: The core programming language for the application.
 - OpenCV: Used for video processing, frame manipulation, and image enhancement.
-- Streamlit:
-- YOLOv8:
-- Roboflow:
+- Streamlit: Web App deployment
+- YOLOv8: Computer Vision model used for instance segmentation tasks
+- Roboflow: Efficiently label and annotate dataset
 
 ## Contributing
 
@@ -119,13 +126,15 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 4. Test your changes to ensure they work as expected.
 5. Submit a pull request, clearly describing the changes you have made.
 
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to reach out to me.
+<!---
 ## License
 
 FencingVision is released under the [MIT License](https://github.com/yourusername/fencing-vision/blob/main/LICENSE).
 
-## Contact
 
-If you have any questions, suggestions, or feedback, please feel free to reach out to me.
 
 ## Acknowledgements
 
@@ -133,3 +142,4 @@ I would like to express our gratitude to the following individuals and organizat
 
 - The open-source community for their valuable libraries and frameworks.
 - Fencing coaches and athletes for their insights and feedback during the development process.
+--->
