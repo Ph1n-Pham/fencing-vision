@@ -1,4 +1,4 @@
-# [In Progress] 🤺📸 Fencing Vision 
+# [In Progress] 🤺📸 FencingVision 
 ### Video Review App with Instance Segmentation model
 
 # FencingVision: Analyzing Fencing Videos with Computer Vision
