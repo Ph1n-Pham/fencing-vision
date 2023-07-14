@@ -2,6 +2,7 @@
 
 # FencingVision: Analyzing Fencing Videos with Computer Vision
 
+![FencingVision Web App](asset/screenshot.png)
 <!---![FencingVision Logo](https://yourdomain.com/images/logo.png)
 --->
 Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative application that utilizes the power of computer vision to analyze fencing videos like never before! This README file serves as your comprehensive guide to understanding, setting up, and utilizing this exciting project.
