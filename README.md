@@ -1,6 +1,6 @@
 # [In Progress] 🤺📸 FencingVision 
 
-# FencingVision: Analyzing Fencing Videos with Computer Vision
+## Analyzing Fencing Videos with Computer Vision
 
 ![FencingVision Web App](asset/screenshot2.png)
 <!---![FencingVision Logo](https://yourdomain.com/images/logo.png)
