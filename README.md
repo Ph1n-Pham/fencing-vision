@@ -19,6 +19,7 @@ Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative
 - [Contributing](#contributing)
 - [Milestones](#milestones)
 - [Contact](#contact)
+- [Acknowledgement](#acknowledgement)
 <!---
 - [License](#license)
 
@@ -130,6 +131,8 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 
 ## Milestones
 
+This is only the first iteration of the app! Here are some potential ideas for further development:
+
 1. Youtube as a Video source option to conveniently search and analyze on Fencing clips from Youtube.
 2. Real-time camera option.
 3. Replay feature to improve Video review experience.
@@ -139,6 +142,11 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to me.
 
+## Acknowledgement
+
+- The app is hugely inspired by the work of CodingMantras from this [repo](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking)
+- The dataset could not be made without the support of Roboflow: Dwyer, B., Nelson, J. (2022), Solawetz, J., et. al. Roboflow (Version 1.0) [Software]. Available from https://roboflow.com
+- Thank you for the support of my mentor Reza Fazeli
 <!---
 ## License
 
