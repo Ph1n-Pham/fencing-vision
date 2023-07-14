@@ -115,9 +115,9 @@ FencingVision is built using the following technologies:
 
 - Python: The core programming language for the application.
 - OpenCV: Used for video processing, frame manipulation, and image enhancement.
-- Streamlit: Web App deployment.
-- YOLOv8: Computer Vision model used for instance segmentation tasks.
-- Roboflow: Efficiently label and annotate dataset.
+- [YOLOv8](https://github.com/ultralytics/ultralytics): Computer Vision model used for instance segmentation tasks.
+- [Roboflow](https://roboflow.com/): Efficiently label and annotate dataset.
+- [Streamlit](https://github.com/streamlit/streamlit): Web App deployment.
 
 ## Contributing
 
