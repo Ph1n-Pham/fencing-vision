@@ -1,7 +1,8 @@
-# [In Progress] 🤺📸 FencingVision 
+# 🤺📸 FencingVision 
 
-# FencingVision: Analyzing Fencing Videos with Computer Vision
+## Analyzing Fencing Videos with Computer Vision
 
+![FencingVision Web App](asset/screenshot2.png)
 <!---![FencingVision Logo](https://yourdomain.com/images/logo.png)
 --->
 Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative application that utilizes the power of computer vision to analyze fencing videos like never before! This README file serves as your comprehensive guide to understanding, setting up, and utilizing this exciting project.
@@ -18,6 +19,7 @@ Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative
 - [Contributing](#contributing)
 - [Milestones](#milestones)
 - [Contact](#contact)
+- [Acknowledgement](#acknowledgement)
 <!---
 - [License](#license)
 
@@ -113,9 +115,9 @@ FencingVision is built using the following technologies:
 
 - Python: The core programming language for the application.
 - OpenCV: Used for video processing, frame manipulation, and image enhancement.
-- Streamlit: Web App deployment.
-- YOLOv8: Computer Vision model used for instance segmentation tasks.
-- Roboflow: Efficiently label and annotate dataset.
+- [YOLOv8](https://github.com/ultralytics/ultralytics): Computer Vision model used for instance segmentation tasks.
+- [Roboflow](https://roboflow.com/): Efficiently label and annotate dataset.
+- [Streamlit](https://github.com/streamlit/streamlit): Web App deployment.
 
 ## Contributing
 
@@ -129,6 +131,8 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 
 ## Milestones
 
+This is only the first iteration of the app! Here are some potential ideas for further development:
+
 1. Youtube as a Video source option to conveniently search and analyze on Fencing clips from Youtube.
 2. Real-time camera option.
 3. Replay feature to improve Video review experience.
@@ -138,6 +142,11 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to me.
 
+## Acknowledgement
+
+- The app is hugely inspired by the work of CodingMantras from this [repo](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking)
+- The dataset could not be made without the support of Roboflow: Dwyer, B., Nelson, J. (2022), Solawetz, J., et. al. Roboflow (Version 1.0) [Software]. Available from https://roboflow.com
+- Thank you for the support of my mentor Reza Fazeli
 <!---
 ## License
 
