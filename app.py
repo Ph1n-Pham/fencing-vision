@@ -32,6 +32,7 @@ confidence = float(st.sidebar.slider(
     "Select Model Confidence", 5, 100, 20)) / 100
 
 # Selecting Detection Or Segmentation
+# note: currenlty only segmentation is supported
 if model_type == 'Detection':
     model_path = Path(settings.DETECTION_MODEL)
 elif model_type == 'Segmentation':
@@ -56,9 +57,6 @@ if source_radio == settings.IMAGE:
     if source_img is None:
         source_img_path = st.sidebar.selectbox(
             "Choose an image...", settings.IMAGES_DICT.keys())
-            # Convert the file to an opencv image.
-        # file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
-        # opencv_image = cv2.imdecode(file_bytes, 1)
         source_img = settings.IMAGES_DICT.get(source_img_path)
     
     
@@ -87,7 +85,7 @@ if source_radio == settings.IMAGE:
             st.image(default_detected_image_path, caption='Detected Image',
                      use_column_width=True)
         else:
-            if st.sidebar.button('Detect Objects'):
+            if st.sidebar.button('Detect'):
                 res = model.predict(uploaded_image,
                                     conf=confidence
                                     )
@@ -106,14 +104,14 @@ if source_radio == settings.IMAGE:
 elif source_radio == settings.VIDEO:
     helper.play_stored_video(confidence, model)
 
-elif source_radio == settings.WEBCAM:
-    helper.play_webcam(confidence, model)
+# elif source_radio == settings.WEBCAM:
+#     helper.play_webcam(confidence, model)
 
-elif source_radio == settings.RTSP:
-    helper.play_rtsp_stream(confidence, model)
+# elif source_radio == settings.RTSP:
+#     helper.play_rtsp_stream(confidence, model)
 
-elif source_radio == settings.YOUTUBE:
-    helper.play_youtube_video(confidence, model)
+# elif source_radio == settings.YOUTUBE:
+#     helper.play_youtube_video(confidence, model)
 
 else:
     st.error("Please select a valid source type!")

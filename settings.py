@@ -1,3 +1,7 @@
+'''
+Hugely thank you to CodingMantras for the great guide https://github.com/CodingMantras/yolov8-streamlit-detection-tracking :)
+'''
+
 from pathlib import Path
 import sys
 
@@ -43,7 +47,6 @@ IMAGES_DICT = {
 }
 
 
-
 # Videos config
 VIDEO_DIR = ROOT / 'data/inference/video'
 VIDEO_1_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
@@ -61,8 +64,8 @@ VIDEOS_DICT = {
 
 # ML Model config
 MODEL_DIR = ROOT / 'weights'
-DETECTION_MODEL = MODEL_DIR / 'best.pt'
 SEGMENTATION_MODEL = MODEL_DIR / 'best.pt'
+#DETECTION_MODEL = MODEL_DIR / 
 
 # Webcam
 WEBCAM_PATH = 0
