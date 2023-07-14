@@ -16,6 +16,7 @@ Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative
 - [How It Works](#how-it-works)
 - [Technology Stack](#technology-stack)
 - [Contributing](#contributing)
+- [Milestones](#milestones)
 - [Contact](#contact)
 <!---
 - [License](#license)
@@ -112,9 +113,9 @@ FencingVision is built using the following technologies:
 
 - Python: The core programming language for the application.
 - OpenCV: Used for video processing, frame manipulation, and image enhancement.
-- Streamlit: Web App deployment
-- YOLOv8: Computer Vision model used for instance segmentation tasks
-- Roboflow: Efficiently label and annotate dataset
+- Streamlit: Web App deployment.
+- YOLOv8: Computer Vision model used for instance segmentation tasks.
+- Roboflow: Efficiently label and annotate dataset.
 
 ## Contributing
 
@@ -126,9 +127,17 @@ We welcome contributions to make FencingVision even better! To contribute, pleas
 4. Test your changes to ensure they work as expected.
 5. Submit a pull request, clearly describing the changes you have made.
 
+## Milestones
+
+1. Youtube as a Video source option to conveniently search and analyze on Fencing clips from Youtube.
+2. Real-time camera option.
+3. Replay feature to improve Video review experience.
+4. Implement Human Pose Estimation for movement analysis.
+
 ## Contact
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to me.
+
 <!---
 ## License
 
