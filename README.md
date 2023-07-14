@@ -1,4 +1,4 @@
-# [In Progress] 🤺📸 FencingVision 
+# 🤺📸 FencingVision 
 
 ## Analyzing Fencing Videos with Computer Vision
 
