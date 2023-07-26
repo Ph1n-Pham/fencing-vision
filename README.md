@@ -20,6 +20,7 @@ Welcome to [FencingVision](https://fencing-vision.streamlit.app/), an innovative
 - [Milestones](#milestones)
 - [Contact](#contact)
 - [Acknowledgement](#acknowledgement)
+- [Interesting Paper](#interesting-paper)
 <!---
 - [License](#license)
 
@@ -147,6 +148,9 @@ If you have any questions, suggestions, or feedback, please feel free to reach o
 - The app is hugely inspired by the work of CodingMantras from this [repo](https://github.com/CodingMantras/yolov8-streamlit-detection-tracking)
 - The dataset could not be made without the support of Roboflow: Dwyer, B., Nelson, J. (2022), Solawetz, J., et. al. Roboflow (Version 1.0) [Software]. Available from https://roboflow.com
 - Thank you for the support of my mentor Reza Fazeli
+
+## Interesting paper:
+- Paper ["CTVIS: Consistent Training for Online Video Instance Segmentation"](https://arxiv.org/abs/2307.12616v1?utm_source=tldrai) proposes a new technique for video segmentation
 <!---
 ## License
 
