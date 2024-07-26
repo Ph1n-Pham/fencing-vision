@@ -32,7 +32,7 @@ confidence = float(st.sidebar.slider(
     "Select Model Confidence", 5, 100, 20)) / 100
 
 # Selecting Detection Or Segmentation
-# note: currenlty only segmentation is supported
+# note: currently only segmentation is supported
 if model_type == 'Detection':
     model_path = Path(settings.DETECTION_MODEL)
 elif model_type == 'Segmentation':
@@ -104,6 +104,7 @@ if source_radio == settings.IMAGE:
 elif source_radio == settings.VIDEO:
     helper.play_stored_video(confidence, model)
 
+# Not supported functions:
 # elif source_radio == settings.WEBCAM:
 #     helper.play_webcam(confidence, model)
 
