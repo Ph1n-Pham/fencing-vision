@@ -4,7 +4,7 @@ Hugely thank you to CodingMantras for the great guide https://github.com/CodingM
 
 from ultralytics import YOLO
 import streamlit as st
-import cv2
+from cv2 import cv2
 import pafy
 
 import settings
