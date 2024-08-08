@@ -52,16 +52,20 @@ VIDEO_DIR = ROOT / 'data/inference/video'
 VIDEO_1_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
 VIDEO_2_PATH = VIDEO_DIR / 'AbandonedCandidAfricanporcupine.mp4'
 VIDEO_3_PATH = VIDEO_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
+VIDEO_4_PATH = VIDEO_DIR / 'video_4.mp4'
+VIDEO_5_PATH = VIDEO_DIR / 'video_5.mp4'
 VIDEOS_DICT = {
     'video_1': VIDEO_1_PATH,
     'video_2': VIDEO_2_PATH,
     'video_3': VIDEO_3_PATH,
+    'video_4': VIDEO_4_PATH,
+    'video_5': VIDEO_5_PATH,
 }
 
 # ML Model config
 MODEL_DIR = ROOT / 'weights'
 SEGMENTATION_MODEL = MODEL_DIR / 'best.pt'
-#DETECTION_MODEL = MODEL_DIR / 
+DETECTION_MODEL = MODEL_DIR / 'best.pt'
 
 # Webcam
 WEBCAM_PATH = 0
