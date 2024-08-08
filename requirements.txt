@@ -15,7 +15,7 @@ pafy
 youtube-dl
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python-headless
+opencv-python-headless==4.8.1.78
 Pillow>=7.1.2
 PyYAML>=5.3.1
 requests>=2.23.0
